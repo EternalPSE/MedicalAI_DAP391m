@@ -1,17 +1,17 @@
 # Patient Readmission Prediction with Explainable AI
 
-**Course/Lab:** On-going Assessment Lab01  
+**Course/Lab:** On-going Assessment   
 **Project title:** Patient Readmission Prediction with Explainable AI
 
 ## Project Overview
 
-This repository contains the Lab01 foundation for a healthcare data science project. The project goal is to prepare and understand hospital/patient data so that later labs can build a machine learning model to predict whether a patient may be readmitted.
+This repository contains the foundation for a healthcare data science project. The project goal is to prepare and understand hospital/patient data so that later labs can build a machine learning model to predict whether a patient may be readmitted.
 
 Explainable AI is included as the project direction because healthcare predictions should not be treated as a black box. Doctors, nurses, hospital managers, and data analysts need to understand which factors influence readmission risk before using a model to support decision-making.
 
-## Lab01 Scope
+##  Scope
 
-This Lab01 follows the early project sessions: project topic selection, project planning, business understanding, data understanding, importing datasets, data wrangling, and preprocessing.
+This  follows the early project sessions: project topic selection, project planning, business understanding, data understanding, importing datasets, data wrangling, and preprocessing.
 
 The work intentionally stays at an early project stage. It does not focus on deployment or advanced explainability yet. A simple baseline model is included only as a preview when a valid readmission target column exists.
 
@@ -55,7 +55,7 @@ Patient-Readmission-Prediction-XAI/
 │   │   └── .gitkeep
 │
 ├── notebooks/
-│   └── Lab01_Patient_Readmission_EDA_Preprocessing.ipynb
+│   └── _Patient_Readmission_EDA_Preprocessing.ipynb
 │
 ├── src/
 │   ├── data_loader.py
@@ -63,7 +63,7 @@ Patient-Readmission-Prediction-XAI/
 │   └── utils.py
 │
 ├── reports/
-│   └── Lab01_Report.md
+│   └── _Report.md
 │
 └── outputs/
     ├── figures/
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 4. Open the notebook:
 
 ```bash
-jupyter notebook notebooks/Lab01_Patient_Readmission_EDA_Preprocessing.ipynb
+jupyter notebook notebooks/_Patient_Readmission_EDA_Preprocessing.ipynb
 ```
 
 5. Run all cells from top to bottom.
@@ -93,7 +93,7 @@ jupyter notebook notebooks/Lab01_Patient_Readmission_EDA_Preprocessing.ipynb
 The processed dataset will be saved to:
 
 ```text
-outputs/processed_data/processed_readmission_lab01.csv
+outputs/processed_data/processed_readmission_.csv
 ```
 
 Figures generated during EDA will be saved to:
@@ -102,7 +102,7 @@ Figures generated during EDA will be saved to:
 outputs/figures/
 ```
 
-## Main Lab01 Tasks
+## Main  Tasks
 
 - Introduce the project topic
 - Explain the business understanding
@@ -119,7 +119,7 @@ outputs/figures/
 
 ## Future Work
 
-Later labs can continue with:
+Later we can continue with:
 
 - Better feature engineering
 - More careful model comparison
@@ -127,12 +127,3 @@ Later labs can continue with:
 - Model evaluation using healthcare-oriented metrics
 - Explainable AI using feature importance, permutation importance, SHAP, or LIME
 - Final report and presentation
-
-## Team Members
-
-| No. | Student Name | Student ID | Role |
-|---:|---|---|---|
-| 1 | Member 1 | Student ID | Project planning / data understanding |
-| 2 | Member 2 | Student ID | Data preprocessing / EDA |
-| 3 | Member 3 | Student ID | Baseline modeling / report |
-| 4 | Member 4 | Student ID | Presentation / documentation |
