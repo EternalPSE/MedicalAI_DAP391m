@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw and generated data are not committed to GitHub
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/processed_data/*
+!outputs/processed_data/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+*.csv
+*.xlsx
+*.pkl
+.env
